@@ -146,7 +146,7 @@ class PostController extends Controller
     public function destroy($id)
     {
 
-        //find post by ID
+        //find post by ID ok
         $post = Post::find($id);
 
         //delete image
